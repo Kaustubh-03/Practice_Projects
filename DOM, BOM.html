@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code with harry</title>
+</head>
+<h3>Javascript DOM Tutorials</h3>
+<body>
+    <button id="idOne"> Good morning </button> <br> <br>
+    <button class="classOne"> Good afternoon </button> <br> <br>
+    <span> Good evening </span> <br> <br>
+    <span> Good night </span> <br> <br>
+
+    <script>
+       let a = document.getElementById('idOne');
+       console.log(a);
+
+       let b = document.getElementsByClassName('classOne');
+       console.log(b);
+
+       let c = (document.getElementsByTagName('span') [1]);
+       console.log(c);
+
+       let d = (document.getElementsByTagName('span')[0]);
+       console.log(d);
+    
+    </script>
+   
+</body>
+</html>
